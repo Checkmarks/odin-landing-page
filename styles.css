@@ -88,3 +88,43 @@ h1 {
     cursor: pointer;
     border: none;
 }
+
+.random-info-section {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+}
+
+.random-info-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 50px;
+}
+
+.random-info-section ul .random-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    gap: 10px;
+}
+
+.random-info-section ul .random-info .illustration-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    padding: 80px;
+    width: 0;
+    height: 0;
+}
+
+.random-info-section ul .random-info sub {
+    color: #1f2937;
+    font-weight: normal;
+}
