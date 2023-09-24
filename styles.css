@@ -128,3 +128,25 @@ h1 {
     color: #1f2937;
     font-weight: normal;
 }
+
+.quote-section {
+    padding: 100px 33% 100px 35%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.quote-section p {
+    margin: 0;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.quote-section .quote-signature {
+    font-weight: bolder;
+    font-size: 26px;
+    font-style: normal;
+    text-align: right;
+    padding: 20px;
+}
