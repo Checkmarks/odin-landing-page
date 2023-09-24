@@ -79,7 +79,7 @@ h1 {
 .sign-up-button {
     background-color: #3882f6;
     color: #F9FAF8;
-    padding: 16px 60px;
+    padding: 12px 50px;
     align-self: flex-start;
     font-weight: bold;
     border-radius: 14px;
@@ -149,4 +149,27 @@ h1 {
     font-style: normal;
     text-align: right;
     padding: 20px;
+}
+
+.outro-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px 10%;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.outro-section p {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.outro-section .sign-up-button {
+    border: solid #F9FAF8;
+    flex: none;
 }
