@@ -173,3 +173,10 @@ h1 {
     border: solid #F9FAF8;
     flex: none;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
